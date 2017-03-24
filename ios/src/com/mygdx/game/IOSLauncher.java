@@ -15,7 +15,7 @@ public class IOSLauncher extends IOSApplication.Delegate implements AdListener {
         IOSApplicationConfiguration config = new IOSApplicationConfiguration();
         MyGdxGame game = new MyGdxGame();
         game.setAdListener(this);
-        UnityAds.initialize(new NSString("1359702"),this,true);
+        UnityAds.initialize(new NSString("你申请的id"),this,true);
         return new IOSApplication(game, config);
     }
 
